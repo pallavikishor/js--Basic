@@ -35,3 +35,26 @@ const myFunction = function(){
 
 console.log(typeof bigNumber);
 console.log(typeof myFunction);
+
+
+// MEMORY => Stack(primitive), Heap(non-primitive)
+// in Stack always give the copy and in heap always give original value
+let myname = "pallavi"
+let pname = myname
+pname = "kishor"
+console.log(pname);
+console.log(myname);
+
+
+let user01 = {
+    email: "pallavi@gmail.com",
+    upi: "pallavi@ybl"
+}
+
+
+let user02 = user01
+
+user02.email = "pallavi2005@gmail.com"
+console.log(user01.email);
+console.log(user02.email);
+

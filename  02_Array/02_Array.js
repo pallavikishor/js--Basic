@@ -25,8 +25,8 @@ console.log(Array.isArray("pallavi"))
 console.log(Array.from("pallavi"));
 console.log(Array.from({name: "pallavi"}));//Interesting
 
-let score1 = 100;
-let score2 = 200;
-let score3 = 300;
+let score1 = 300;
+let score2 = 400;
+let score3 = 500;
 
 console.log(Array.of(score1, score2, score3));
